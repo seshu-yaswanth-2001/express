@@ -19,8 +19,6 @@ app.get("/about", (req, res) => {
   res.send("About Page");
 });
 
-app.get
-
 app.listen(3000, () => {
   console.log("Port is running at 3000");
 });
